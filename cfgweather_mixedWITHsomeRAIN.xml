@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<weather reset="1" enable="1">
+<!-- PRG custom 28FEB24 -->
+    <overcast>
+        <current actual="0.05" time="120" duration="240" />
+        <limits min="0.2" max="0.8" />
+        <timelimits min="900" max="1800" />
+        <changelimits min="0.4" max="0.8" />
+    </overcast>
+    <fog>
+        <current actual="0.2" time="120" duration="240" />
+        <limits min="0.2" max="0.5" />
+        <timelimits min="900" max="1800" />
+        <changelimits min="0.2" max="0.4" />
+    </fog>
+    <rain>
+        <current actual="0.0" time="120" duration="240" />
+        <limits min="0.0" max="0.8" />
+        <timelimits min="300" max="512" />
+        <changelimits min="0.2" max="0.4" />
+        <thresholds min="0.8" max="0.9" end="120" />
+    </rain>
+    <wind>
+        <maxspeed>15</maxspeed>
+        <params min="0.0" max="1.0" frequency="30" />
+    </wind>
+    <storm density="0.75" threshold="0.75" timeout="45"/>
+</weather>
